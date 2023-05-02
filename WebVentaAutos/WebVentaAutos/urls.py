@@ -19,9 +19,8 @@ from Appuser.views import*
 
 
 urlpatterns = [
-    
-    path('admin/', admin.site.urls),
     path("Appuser/", include("Appuser.urls")),
+    path("Base/", include("Base.urls")),
     
 ]
 
